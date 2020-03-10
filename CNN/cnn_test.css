@@ -1,0 +1,328 @@
+body {
+	margin: 0;
+}
+
+#container {
+	width: 100%;
+	height: 100px;
+}
+
+#headerBG {
+	width: 100%;
+	height: 75px;
+	background-color: #000;
+}
+
+#interior {
+	width: 65%;
+	margin: 0 auto;
+}
+
+#header {
+	width: 100%;
+	height: 100px;
+}
+
+#logo {
+	width: 85px;
+	height: 85px;
+	background-image: url("images/logo.png");
+	float: left;
+	display: inline-block;
+}
+
+#topNav {
+	width: 90%;
+	height: 40px;
+	float: left;
+	color: #fff;
+	background-color: #000;
+}
+
+.topNavFont {
+	line-height: 40px;
+	vertical-align: middle;
+	padding-left: 15px;
+	padding-right: 12px;
+	display: inline-block;
+	font-size: 1.2em;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #fff;
+}
+
+.greyFont {
+	color: #ccc;
+}
+
+#topNavFloatRight {
+	width: 325px;
+	float: right;
+}
+
+.topNavRight {
+	line-height: 40px;
+	vertical-align: middle;
+	float: left;
+	padding-left: 15px;
+	padding-right: 12px;
+	display: inline-block;
+	font-size: 0.9em;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #aaa;
+}
+
+.topNavSearch {
+	width: 200px;
+	height: 40px;
+	line-height: 35px;
+	vertical-align: middle;
+	float: right;
+	display: inline-block;
+	font-size: 1em;
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: #333;
+	color: #fff;
+}
+
+.topNavSearch input {
+	line-height: 35px;
+	border: 0;
+	outline: none;
+	vertical-align: middle;
+	float: right;
+	display: inline-block;
+	font-size: 0.95em;
+	font-family: sans-serif;
+	background-color: #333;
+	color: #999;
+}
+
+#botNav {
+	width: 90%;
+	height: 35px;
+	float: left;
+	background-color: #ccc;
+	color: #fff;
+}
+
+.botNavFont {
+	line-height: 35px;
+	vertical-align: middle;
+	padding-left: 16px;
+	padding-right: 16px;
+	display: inline-block;
+	font-size: 0.95em;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #444;
+}
+
+.botNavMoney {
+	line-height: 35px;
+	vertical-align: middle;
+	padding-left: 16px;
+	padding-right: 16px;
+	display: inline-block;
+	font-size: 0.95em;
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: #006598;
+	color: #fff;
+}
+
+.botNavLiveTV {
+	line-height: 35px;
+	vertical-align: middle;
+	float: right;
+	padding-left: 16px;
+	padding-right: 14px;
+	display: inline-block;
+	font-size: 0.95em;
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: #c00;
+	color: #fff;
+}
+
+#content {
+	width: 100%;
+}
+
+#mainLeft {
+	width: 25%;
+	float: left;
+}
+
+.mainLeftHeading {
+	height: 40px;
+	background-color: #f2f2f2;
+	border-bottom-color: #ddd;
+	border-bottom-style: solid;
+	border-bottom-width: thin:
+}
+
+.mainLeftHeadingFont {
+	line-height: 40px;
+	vertical-align: middle;
+	padding-left: 8px;
+	font-size: 1.1em; 
+	font-family: sans-serif;
+	font-weight: 750;
+}
+
+.mainLeftFirstItem {
+	background-color: #fff;
+	color: #333;
+}
+
+.mainLeftItem {
+	border-top-color: #ddd;
+	border-top-style: solid;
+	border-top-width: thin:
+	background-color: #fff;
+	color: #333;
+}
+
+.mainLeftItemFont {
+	width: 85%;
+	line-height: 30px;
+	vertical-align: middle;
+	font-size: 1em; 
+	font-family: sans-serif;
+	color: #222;
+}
+
+.extraPadding {
+	padding-top: 30px;
+}
+
+#mainRight {
+	width: 75%;
+	vertical-align: top;
+	float: right;
+	background-color: #fff;
+}
+
+#mainNews {
+	width: 780px;
+	height: 438px;
+	margin-left: 55px;
+	background-image: url("images/donald-trump.jpg");
+}
+
+#mainNewsInfoTop {
+	height: 313px;
+	background-color: transparent;
+}
+
+#mainNewsInfoBot {
+	height: 125px;
+	vertical-align: bottom;
+	background-color: rgba(365, 365, 365, 0.85)
+}
+
+.mainNewsLinks {
+	width: 100%;
+	padding-left: 10px;
+	padding-top: 10px;
+	float: left;
+}
+
+a.big:link {
+	font-weight: 400;
+	font-size: 3em;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #333;
+}
+
+a.big:visited {
+	font-weight: 400;
+	font-size: 3em;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #333;
+}
+
+a.big:hover {
+	font-weight: 400;
+	font-size: 3em;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #c00;
+}
+
+a.big:active {
+	font-weight: 400;
+	font-size: 3em;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #c00;
+}
+
+a.medium:link {
+	font-weight: 300;
+	font-size: 1.7em;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #444;
+}
+
+a.medium:visited {
+	font-weight: 300;
+	font-size: 1.7em;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #444;
+}
+
+a.medium:hover {
+	font-weight: 300;
+	font-size: 1.7em;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #c00;
+}
+
+a.medium:active {
+	font-weight: 300;
+	font-size: 1.7em;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #c00;
+}
+
+a.small:link {
+	font-weight: 700;
+	font-size: 0.9em;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #006598;
+}
+
+a.small:visited {
+	font-weight: 700;
+	font-size: 0.9em;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #006598;
+}
+
+a.small:hover {
+	font-weight: 700;
+	font-size: 0.9em;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #c00;
+}
+
+a.small:active {
+	font-weight: 700;
+	font-size: 0.9em;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #c00;
+}
