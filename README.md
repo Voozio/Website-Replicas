@@ -1,2 +1,2 @@
 # Website-Replicas
-Websites are replicated to practice web development
+Description: Websites are replicated for practicing web development.
