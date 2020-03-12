@@ -15,7 +15,6 @@
 				font-family: Arial, Helvetica, sans-serif;
 				--transition-speed: 600ms;
 				background-color: #fff;
-				height: 110%;
 			}
 
 			body {
@@ -165,6 +164,10 @@
 
 			/* Small screens */
 			@media only screen and (max-width: 812px) {
+				:root {
+					height: 120%;
+				}
+
 				#content {
 					margin: 0;
 				}
@@ -211,6 +214,10 @@
 			}
 
 			@media only screen and (max-width: 480px) {
+				:root {
+					height: 160%;
+				}
+
 				#content {
 					margin: 0;
 				}
@@ -225,12 +232,25 @@
 				}
 
 				#picture {
-					display: none;
+					margin-top: 20px;
+					margin-bottom: 20px;
+					margin-left: auto;
+					margin-right: auto;
+					width: 320px;
+					height: 320px;
+					background-image: url("italy_small.png");
+					display: block;
+					border: 2px;
+					border-style: solid;
 				}
 			}
 
 			/* Large screens */
 			@media only screen and (min-width: 812px) {
+				:root {
+					height: 120%;
+				}
+
 				#content {
 					margin-left: 5rem;
 					padding: 1rem;
