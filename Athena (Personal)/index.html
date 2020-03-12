@@ -14,7 +14,8 @@
 				font-size: 1em;
 				font-family: Arial, Helvetica, sans-serif;
 				--transition-speed: 600ms;
-				background-color: #eee;
+				background-color: #fff;
+				height: 110%;
 			}
 
 			body {
@@ -36,29 +37,46 @@
 
 			#container {
 				width: 100%;
+				text-align: center;
 			}
 
 			#header {
+				width: 100%;
 				height: 5rem;
 				background-color: #333;
 			}
 
-			#about {
-				width: 50%;
+			.subcontainer {
+				position: relative;
+				margin-left: 10%;
+				width: 80%;
 			}
 
 			p.subheader {
-				margin-left: 15%;
 				line-height: 3rem;
 				height: 3rem;
 				display: block;
-				float: left;
 				text-align: center;
 				vertical-align: middle;
-				font-size: 2em;
+				font-size: 2.5em;
+				padding-bottom: 0.5rem;
 				border-bottom-color: #444;
 				border-bottom-style: solid;
-				border-bottom-width: thin:
+				border-bottom-width: thin;
+			}
+
+			.textBlock {
+				margin-top: -1rem;
+				position: absolute;
+				margin-left: 5%;
+				margin-right: 5%;
+				width: 90%;
+			}
+
+			p.text {
+				margin-top: 0;
+				display: block;
+				height: auto;
 			}
 
 			.navbar {
@@ -66,6 +84,7 @@
 				background-color: #333;
 				transition: width 600ms ease;
 				overflow: hidden;
+				z-index: 2;
 			}
 
 			.navbar-nav {
@@ -306,7 +325,6 @@
 					<li class="nav-item">
 
 						<a href="https://athena.ecs.csus.edu/~vooj/resume.html" class="nav-link">
-
 							<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-alt" class="svg-inline--fa fa-file-alt fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="-40 0 450 512">
 								<path fill="#fff" d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm64 236c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12v8zm0-64c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12v8zm0-72v8c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12zm96-114.1v6.1H256V0h6.1c6.4 0 12.5 2.5 17 7l97.9 98c4.5 4.5 7 10.6 7 16.9z"></path>
 							</svg>
@@ -350,10 +368,32 @@
 			</nav>
 
 			<div id="content">
-				
+
 				<div id="picture"></div>
 
-				<div class="about">
+				<div class="subcontainer">
+
+					<p class="subheader">Education</p>
+
+					<div class="textBlock">
+
+						<p class="text">
+							<strong>California State University, Sacramento | Bachelor of Science, Computer Science</strong>
+						</p>
+
+						<p class="text">
+							<strong>Expected December 2020 | GPA: 3.2</strong>
+						</p>
+
+						<p class="text">
+							<strong>Relevant Courses:</strong> Data Structures & Algorithm Analysis, Database Management Systems, Object-Oriented Computer Graphics, Computer Organization, Computer Theory & Programming Languages, Computer Software Engineering, Operating System Principles*, Computer Network & Internet*, Data Visualization* / <strong>In Progress *</strong>
+						</p>
+
+						<p class="text">
+							<strong>Dean's Honor Roll</strong> (Spring 2019)
+						</p>
+
+					</div>
 
 				</div>
 
